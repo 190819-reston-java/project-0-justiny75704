@@ -35,7 +35,7 @@ public class Controller {
 				return;
 			} else if(again.equalsIgnoreCase("no")) {
 				System.out.println("Logging out. Goodbye.");
-				return;
+				System.exit(0);
 			} else {
 				logger.debug("User input " + again + " was not recognized.");
 				System.out.println("You did not enter either 'Yes' or 'No'. Please try again.");
@@ -94,7 +94,7 @@ public class Controller {
 					return;
 				} else if (answer.equalsIgnoreCase("no")) {
 					System.out.println("Logging out. Goodbye.");
-					return;
+					System.exit(0);
 				} else {
 					logger.debug("User input " + answer + " was not recognized.");
 					System.out.println("You did not enter either 'Yes' or 'No'. Please try again.");
@@ -116,7 +116,7 @@ public class Controller {
 					return;
 				} else if (answer.equalsIgnoreCase("no")) {
 					System.out.println("Logging out. Goodbye.");
-					return;
+					System.exit(0);
 				} else {
 					logger.debug("User input " + answer + " was not recognized.");
 					System.out.println("You did not enter either 'Yes' or 'No'. Please try again.");
@@ -126,7 +126,7 @@ public class Controller {
 			}
 		} else if (choice.equalsIgnoreCase("L")) {
 			System.out.println("Logging out. Goodbye.");
-			return;
+			System.exit(0);
 		} else {
 			logger.debug("User input " + choice + " was not recognized.");
 			System.out.print("You did not enter either 'C', 'S', or 'L'. Please try again.");
@@ -149,7 +149,7 @@ public class Controller {
 				return;
 			} else if (answer.equalsIgnoreCase("no")) {
 				System.out.println("Logging out. Goodbye.");
-				return;
+				System.exit(0);
 			} else {
 				logger.debug("User input " + answer + " was not recognized.");
 				System.out.println("You did not enter either 'Yes' or 'No'. Please try again.");
@@ -165,7 +165,7 @@ public class Controller {
 				return;
 			} else if (answer.equalsIgnoreCase("no")) {
 				System.out.println("Logging out. Goodbye.");
-				return;
+				System.exit(0);
 			} else {
 				logger.debug("User input " + answer + " was not recognized.");
 				System.out.println("You did not enter either 'Yes' or 'No'. Please try again.");
@@ -189,7 +189,7 @@ public class Controller {
 				return;
 			} else if (answer.equalsIgnoreCase("no")) {
 				System.out.println("Logging out. Goodbye.");
-				return;
+				System.exit(0);
 			} else {
 				logger.debug("User input " + answer + " was not recognized.");
 				System.out.println("You did not enter either 'Yes' or 'No'. Please try again.");
@@ -213,7 +213,7 @@ public class Controller {
 				return;
 			} else if (answer.equalsIgnoreCase("no")) {
 				System.out.println("Logging out. Goodbye.");
-				return;
+				System.exit(0);
 			} else {
 				logger.debug("User input " + answer + " was not recognized.");
 				System.out.println("You did not enter either 'Yes' or 'No'. Please try again.");
@@ -225,7 +225,7 @@ public class Controller {
 			return;
 		} else if (choice.equalsIgnoreCase("L")) {
 			System.out.println("Logging out. Goodbye.");
-			return;
+			System.exit(0);
 		} else {
 			logger.debug("User input " + choice + " was not recognized.");
 			System.out.print("You did not enter either 'V', 'O', 'W' , 'D' 'R' or 'L'. Please try again.");
@@ -248,7 +248,7 @@ public class Controller {
 				return;
 			} else if (answer.equalsIgnoreCase("no")) {
 				System.out.println("Logging out. Goodbye.");
-				return;
+				System.exit(0);
 			} else {
 				logger.debug("User input " + answer + " was not recognized.");
 				System.out.println("You did not enter either 'Yes' or 'No'. Please try again.");
@@ -265,7 +265,7 @@ public class Controller {
 				return;
 			} else if (answer.equalsIgnoreCase("no")) {
 				System.out.println("Logging out. Goodbye.");
-				return;
+				System.exit(0);
 			} else {
 				logger.debug("User input " + answer + " was not recognized.");
 				System.out.println("You did not enter either 'Yes' or 'No'. Please try again.");
@@ -289,7 +289,7 @@ public class Controller {
 				return;
 			} else if (answer.equalsIgnoreCase("no")) {
 				System.out.println("Logging out. Goodbye.");
-				return;
+				System.exit(0);
 			} else {
 				logger.debug("User input " + answer + " was not recognized.");
 				System.out.println("You did not enter either 'Yes' or 'No'. Please try again.");
@@ -313,7 +313,7 @@ public class Controller {
 				return;
 			} else if (answer.equalsIgnoreCase("no")) {
 				System.out.println("Logging out. Goodbye.");
-				return;
+				System.exit(0);
 			} else {
 				logger.debug("User input " + answer + " was not recognized.");
 				System.out.println("You did not enter either 'Yes' or 'No'. Please try again.");
@@ -325,7 +325,7 @@ public class Controller {
 			return;
 		} else if (choice.equalsIgnoreCase("L")) {
 			System.out.println("Logging out. Goodbye.");
-			return;
+			System.exit(0);
 		} else {
 			logger.debug("User input " + choice + " was not recognized.");
 			System.out.print("You did not enter either 'V', 'O', 'W' , 'D' 'R' or 'L'. Please try again.");
